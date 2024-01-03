@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px !important;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    color: #181818 !important;
+
+}
+a{
+    text-decoration: none !important;
+}
+ul li{
+    list-style-type: none;
+}
+/* ====================== */
+/* =========== title ============= */
+.title{
+    margin-bottom: 5rem;
+}
+.title h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.title p{
+    margin: 0 auto;
+    width: 500px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+}
+/* =========== title ============= */
+/* =========== navbar =========== */
+.nav_bar{
+    background-color: #fff;
+}
+.navbar-brand img{
+    max-width: 8rem;
+}
+.navbar-nav{
+    display: flex;
+    gap: 50px;
+}
+.navbar-nav li a{
+    font-size: 1.8rem;
+    font-weight: 500;
+    transition: all .4s;
+}
+.navbar-nav li a:hover{
+    color: #5956E8;
+}
+.nav_btn a{
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 1.3rem 2.3rem;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #5956E8;
+}
+/* =========== navbar =========== */
+/* ========== banner =========== */
+.banner{
+    background-color: #5956E8;
+    padding: 5rem 0 5rem 0;
+}
+.banner_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.banner_text h1{
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 8.0rem;
+    color: #fff;
+}
+.banner_text p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+    color: #fff;
+}
+.banner_text a{
+    display:inline-block;
+    width: fit-content;
+    color: #5956E8;
+    background-color: #fff;
+    padding: 1.3rem 2.3rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    border-radius: 10px;
+}
+/* ========== banner =========== */
+/* =============== service ===== */
+.service{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.sev_col{
+    border-radius: 15px;
+    transition: all .5s;
+    padding: 5rem;
+}
+.sev_col:hover{
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+}
+.tap{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Scol{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.Scol img{
+    max-width: 5rem;
+}
+.Scol h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.Scol p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+    width: 265px;
+}
+
+/* =============== service ===== */
+/* =============== portfolio ===== */
+.Portfolio{
+    margin-bottom: 5rem;
+}
+.port_img{
+    position: relative;
+    overflow-y: hidden;
+}
+.hove h3{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.7rem;
+}
+.hove p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+}
+.port_img .hove{
+	position: absolute;
+	bottom: -130px;
+	padding: 25px 40px;
+	background-color: #5956E8;
+	color: #fff;
+	border-radius: 15px;
+	left: 31px;
+    transition: all .4s;
+}
+.port_img:hover .hove{
+    bottom: 80px;
+}
+/* =============== portfolio ===== */
+/* =============== team ===== */
+.team{
+    margin-bottom: 5rem;
+}
+.team_info{
+    position: relative;
+    transition: all 1s;
+
+}
+
+.meb_info{
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 95%;
+    background: 0;
+    transition: all 1s;
+}
+.team_info:hover .meb_info{
+    border-radius: 1rem;
+    background: linear-gradient(0deg, #5956E8 -1.13%, rgba(255, 255, 255, 0.00) 58.11%); 
+
+}
+.meb_info h2{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.7rem;
+}
+.meb_info p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+}
+/* =============== team ===== */
+/* =============== customer ===== */
+.Customer{
+    margin: 10rem 0 5rem 0;
+}
+.cust_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.cust_text h1{
+    font-size: 4rem;
+    width: 60.3rem;
+    font-weight: 700;
+}
+.cust_text p{
+    width: 54.2rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.7rem; /* 168.75% */
+}
+.cust_info{
+    display: flex;
+    flex-direction: column;
+}
+.customer_img{
+    width: 8.3rem;
+    height: 8.3rem;
+    flex-shrink: 0;
+}
+.stars{
+    width: 12.8rem;
+    height: 2rem;
+    flex-shrink: 0;
+}
+.cust_info p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.7rem; /* 168.75% */
+}
+.cust_info h3{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.7rem; /* 135% */
+}
+.cust_info h4{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.7rem; /* 168.75% */
+}
+.cust{
+    margin-top: 5rem !important;
+}
+/* =============== customer ===== */
+/* =============== blog ===== */
+.blog{
+    margin: 10rem 0 5rem 0;
+}
+.blog_sub{
+    width: 25rem;
+    gap: 3rem;
+}
+.blog_post .blog_sub{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.7rem; /* 168.75% */
+}
+.blog_post h2{
+    font-size: 2rem;
+    font-weight: 600;
+    width: 27.1rem;
+}
+.blog_post p{
+    width: 30rem;
+    color: #5D5D5D;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.7rem; /* 168.75% */
+}
+.blog_post a{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+/* =============== blog ===== */
+/* ============== footer ======= */
+.footer{
+    margin: 20rem 0 0 0;
+    padding: 10rem 0;
+    background-color: rgba(89, 86, 232, 0.153);
+}
+.footer_brand p{
+    width: 30rem;
+    color: #5D5D5D;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.7rem; /* 168.75% */
+}
+.footer_social{
+    gap: 1rem;
+}
+
+.footer_social i{
+    font-size: 2rem;
+}
+.footer_menu ul {
+	padding-left: 0;
+}
+.footer_menu h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.footer_menu ul li{
+    color: #5D5D5D;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3rem; 
+}
+.footer_menu ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* ============== footer ======= */
